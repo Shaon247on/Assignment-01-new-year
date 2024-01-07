@@ -142,11 +142,126 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
-.invitation-button:hover{
+
+.invitation-button:hover {
     color: rgb(255, 166, 0);
     background: #070707;
 }
 
 .invitation-image {
     margin-top: 77px;
+}
+
+/* end of invitation section  */
+/* start of location section  */
+.location-bannar {
+    width: 1320px;
+    height: 482px;
+    margin: 120px 140px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+}
+
+.location-info {
+    padding: 100px 385px 214px;
+}
+
+.location-section {
+    color: red;
+}
+
+.location-button {
+    border: 2px solid #F00;
+    height: 35px;
+    width: 110px;
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+}
+
+.location-button:hover {
+    color: #F00;
+    background: white;
+}
+
+/* end of location section */
+/* start of upcoming section */
+
+.upcoming-banner {
+    width: 1600px;
+    /* height: 7335px; */
+    background: #ffffff;
+    display: flex;
+    /* align-content: center;
+    justify-content: center; */
+    gap: 70px;
+}
+
+.upcoming-offer {
+    position: relative;
+    margin-left: 140px;
+    margin-top: 89px;
+}
+
+.upcoming-offer-best {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.upcoming-offer-soon {
+    margin-top: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.upcoming-offer-details {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.upcoming-image {
+    width: 364.844px;
+    height: 364.844px;
+    border: 15px solid rgb(170, 79, 79);
+    border-radius: 364.844px;
+    padding: 41px;
+    /* margin-top: 4px; */
+}
+
+.upcoming-year {
+    padding-right: 140px;
+    margin-top: 89px;
+}
+
+.upcoming-year-time {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.upcoming-year-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0px;
+}
+
+.upcoming-year-image {
+    position: absolute;
+    width: 140px;
+    height: 140px;
 }
