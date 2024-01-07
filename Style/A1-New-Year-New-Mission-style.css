@@ -1,0 +1,90 @@
+body {
+    width: 1600px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/* start of banner section  */
+
+.banner {
+    background-image: url('../Image/Banner-Image.png');
+    /* opacity: 85%; */
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+/* .overlay {
+    position: absolute;
+    border-radius: 16px;
+    margin: 50px 140px 60px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+} */
+
+.new-year-title {
+    color: #7cbbc4f5;
+    /* text-align: center; */
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.new-year-party {
+    width: 632px;
+    color: #61b7c2f5;
+    margin-top: 10px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+}
+
+/* end of banner section  */
+
+/* start of discount section  */
+.discount-section {}
+
+.discount-info {
+    text-align: center;
+}
+
+.discount-offer {
+    margin-top: 120px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount-quality {
+    margin-top: 48px;
+    margin-bottom: 10px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-categories {
+    margin-top: 0px;
+    margin-bottom: 48px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-image {
+    margin: 48px 399px 120px 399px;
+    width: 802.9px;
+    height: 500px;
+}
