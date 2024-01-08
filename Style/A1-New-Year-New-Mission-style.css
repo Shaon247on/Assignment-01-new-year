@@ -269,8 +269,9 @@ body {
 /* end of upcoming section */
 /* start of hollyday section */
 
-.hollyday section {
+.hollyday-section {
     margin-top: 160px;
+    margin-bottom: 160;
 }
 
 .hollyday-info {
@@ -356,5 +357,131 @@ body {
     bottom: 59.5px;
     right: 320px;
 }
+
 /* end of hollyday section */
 /* start of gift section */
+
+.gift-banner {
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.gift-info {}
+
+.gift-best {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-titile {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.gift-description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px
+}
+
+.gift-photo-table {
+    margin: 6px 0px;
+}
+
+tr,
+td {
+    padding: 6px;
+}
+
+.gift-photo-container {
+    margin-bottom: 100px;
+
+}
+
+.gift-photo:hover {
+    border: 4px solid red;
+    border-radius: 21px;
+}
+
+/* end of gift section */
+/* start of subscribe section  */
+
+.subscribe-section {
+    width: 1320px;
+    height: 616px;
+    margin: 120px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-image {}
+
+.subscribe-info {
+    text-align: center;
+
+}
+
+.subscribe-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscribe-input {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    /* gap: 0px; */
+    background-color: white;
+    /* border: 4px solid; */
+}
+
+.subscribe-email {
+    width: 434px;
+    height: 68px;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background-color: white;
+    color: rgba(7, 2, 17, 0.986);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.subscribe-button {
+    width: 210px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
