@@ -564,34 +564,50 @@ td {
     line-height: 40px;
     margin-top: 0px;
 }
-.horizontal-line{
+
+.horizontal-line {
     height: 1px;
-    width: 1320px;    
-    background-color:rgba(255, 255, 255, 0.15);
+    width: 1338px;
+    background-color: rgba(255, 255, 255, 0.15);
     position: absolute;
     left: 120px;
     top: 250px;
 }
 
-.footer-section-part-2{
+.footer-section-part-2 {
     position: relative;
-    height: 160px;
+    height: 70px;
 }
+
 .footer-icon-container {
     height: 0px;
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0px;    
+    padding-bottom: 0px;
 }
 
-.horizontal-line-2{
+.horizontal-line-2 {
     height: 1px;
-    width: 1320px;    
-    background-color:rgba(255, 255, 255, 0.15);
+    width: 1338px;
+    background-color: rgba(255, 255, 255, 0.15);
     position: absolute;
-    bottom: 90px;
+    bottom: 0px;
     left: 122px;
 }
 
+.footer-final-part {
+    margin-top: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
